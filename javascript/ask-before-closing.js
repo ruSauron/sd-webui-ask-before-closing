@@ -1,6 +1,3 @@
-onUiLoaded(() => {
-	window.onbeforeunload = function () {
-		window.event.returnValue = 1;
+window.onbeforeunload = function () {
+	window.event.returnValue = 1;
 }
-}
-);
